@@ -1,0 +1,4 @@
+<h1>homepage</h1>
+<% if user_signed_in? %>
+	account confirmed: <%= current_user.confirm? %>
+<% end %>
